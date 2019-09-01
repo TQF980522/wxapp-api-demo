@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "l-icon": "/lin-ui/icon/index",
+    "l-message": "/lin-ui/message/index",
+    "l-checkbox-group": "/lin-ui/checkbox-group/index",
+    "l-checkbox": "/lin-ui/checkbox/index",
+    "l-action-sheet":"/lin-ui/action-sheet/index"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "DEMO",
+  "usingComponents": {
+    "l-notice-bar": "/lin-ui/notice-bar/index"
+  }
+}

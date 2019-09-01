@@ -1,0 +1,9 @@
+<!--pages/demo/demo.wxml-->
+<view class="btn">按钮</view>
+<l-button type="default" size="medium">default</l-button>
+<l-button type="error">error</l-button>
+<l-button type="success">success</l-button>
+<l-button type="warning">warning</l-button>
+
+<view class="btn">通知栏</view>
+<l-notice-bar show="{{show}}" type="roll" front-icon-name="notification" end-icon-name="close" front-icon-size="20" front-icon-color="#3683D6" bind:linicontap="linicontap">我是通告栏</l-notice-bar>

@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/demo/demo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "l-icon": "/lin-ui/icon/index",
+    "l-button": "/lin-ui/button/index",
+    "l-tabbar": "/lin-ui/custom-tab-bar/index",
+    "l-loadmore": "/lin-ui/loadmore/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

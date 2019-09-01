@@ -1,0 +1,138 @@
+/**app.wxss**/
+page{
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  background: #eee;
+  font-size: 28rpx;
+}
+.container {
+  width: 100%;
+}
+.float_left{
+  float: left !important;
+}
+.float_right{
+  float: right !important;
+}
+.overflow1{
+  display: -webkit-box;overflow: hidden;text-overflow: ellipsis;word-wrap: break-word;white-space: normal !important;-webkit-line-clamp: 1;-webkit-box-orient: vertical;
+}
+.overflow2{
+  display: -webkit-box;overflow: hidden;text-overflow: ellipsis;word-wrap: break-word;white-space: normal !important;-webkit-line-clamp: 2;-webkit-box-orient: vertical;
+}
+.bg1{
+  background: #FEDC59 !important;
+  color: #fff;
+  border-radius: 15rpx;
+  padding: 2rpx 15rpx;
+}
+.mt5{
+  margin-top: 5rpx !important;
+}
+.mr5{
+  margin-right:5rpx !important;
+}
+.mt10{
+  margin-top: 10rpx !important;
+}
+.mt20{
+  margin-top: 20rpx !important;
+}
+.mt30{
+  margin-top:30rpx !important;
+}
+.mt40{
+  margin-top:40rpx !important;
+}
+.mb10{
+  margin-bottom: 10rpx !important;
+}
+.mb20{
+  margin-bottom: 20rpx !important;
+}
+.mr10{
+  margin-right: 10rpx !important;
+}
+.mr20{
+  margin-right:20rpx !important;
+}
+.mr30{
+  margin-right: 30rpx !important;
+}
+.ml60{
+  margin-left: 60rpx !important;
+}
+.ml10{
+  margin-left: 10rpx !important;
+}
+.ml20{
+  margin-left: 20rpx !important;
+}
+.tc{
+  text-align: center !important;
+}
+.tl{
+  text-align: left !important;
+}
+.tr{
+  text-align: right !important;
+}
+
+.icon_w_h{
+  width:20rpx;
+  height: 20rpx;
+}
+.but_radius{
+  border-radius: 20rpx;
+}
+.but_class{
+  background: #FEDC59 !important;
+}
+
+/*swtich整体大小*/
+.wx-switch-input{
+  width:82rpx !important;
+  height:48rpx !important;
+}
+/*白色样式（false的样式）*/
+.wx-switch-input::before{
+  width:80rpx !important;
+  height: 45rpx !important;
+}
+/*绿色样式（true的样式）*/
+.wx-switch-input::after{
+  width: 40rpx !important;
+  height: 45rpx !important;
+}
+/* 待回复 */
+.state1{
+  text-align: center;
+}
+.f_red{
+  color: red !important
+}
+.f_color{
+  color: #FEDC59 !important
+}
+.f_color_f{
+  color: #fff !important
+}
+.bg_red{
+  background: #f56e6e !important;
+}
+.bg{
+  background: #FEDC59 !important;
+}
+
+.clear{ clear:both !important} 
+
+
+.follow_class{
+  border: 1px solid #FEDC59;
+  border-radius: 10rpx;
+  padding: 0rpx 10rpx;
+  font-size: 24rpx;
+}
+
+.swipeable-class-inactive{
+  color: #888 !important
+}
